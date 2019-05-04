@@ -1,0 +1,108 @@
+*{
+	padding: 0%;
+	margin: 0%;
+}
+
+header, main, footer {
+	width: 100%;
+	background-color: #2b2b2b !important;
+	
+}
+
+body{
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+	height: 100%;
+	background-color: #2b2b2b !important;
+}
+.color-white{
+	color: white;
+}
+.menu li, .menu li a{
+	float: left;
+	padding: 10px;
+	list-style-type: none;
+	text-decoration: none;
+	color:white;
+}
+
+#conteudo{
+	background-color:#2b2b2b;
+}
+
+
+.logo h1, .logo h1 a{
+	color: white;
+	text-decoration: none;
+}
+
+
+.box-main{
+	height: 50vh;
+    margin-top: 30vh !important;
+}
+
+.box-centro{
+	display: block;
+	margin: 0 auto;
+}
+
+.footer{
+	background-color: #2b2b2b;
+    color: white;
+    ;
+}
+
+.footer p{
+    text-align: center;
+    bottom: 0%;
+
+}
+
+.titulo{
+	text-align: center;
+	margin: 0;
+	color: white;
+}
+
+.box-imagem{
+	background-color: grey;
+	height: 450px;
+}
+
+.box-imagem img{
+	margin-top: 20px;
+}
+
+.texto-resultado{
+	color: white;
+	padding: 25px;
+	text-align: center;
+}
+
+.btn-saibaMais{
+	background-color: #F2762E;
+	padding: 10px;
+	border-radius: 30px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.btn-saibaMais a{
+	color: white;
+	transition: .7s all;
+}
+
+.btn-saibaMais:hover a{
+	color: #F2762E;
+}
+
+.btn-saibaMais:hover{	
+	background-color: white;
+	cursor: pointer;
+}
+
+.footer{
+	position: relative;
+	bottom: 0;
+}

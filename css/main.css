@@ -1,0 +1,238 @@
+*{
+	padding: 0%;
+	margin: 0%;
+}
+
+main, footer {
+	width: 100%;
+	background-color: #150e02 !important;
+	
+}
+
+body{
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+	height: 100%;
+	background-color: #2b2b2b !important;
+}
+.color-white{
+	color: white;
+}
+
+#conteudo{
+	background-color:#2b2b2b;
+}
+
+
+.logo h1, .logo h1 a{
+	color: white;
+	text-decoration: none;
+}
+
+.btn-entrar{
+    padding: 1.3em 3em;
+    background: #F2762E;
+	border-radius: 30px;
+	width: 150px;
+	text-align: center;
+	font-weight: bold;
+	transition: .7s all;
+}
+
+.btn-entrar:hover{
+	background-color: white;
+	color: #F2762E;
+}
+
+.box-main{
+	height: 50vh;
+    margin-top: 30vh !important;
+}
+
+.box-centro{
+	display: block;
+	margin: 0 auto;
+}
+
+.footer{
+	background-color: #150e02;
+	color: white;
+}
+
+.footer p{
+	text-align: center;
+
+}
+
+.titulo{
+	text-align: center;
+	margin: 0;
+	color: white;
+}
+.footer{
+	position: relative;
+	bottom: 0;
+}
+
+
+
+.header {
+    background-color: #150e02;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    /* position: fixed; */
+    height: 70px;
+    width: 100%;
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #150e02;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+	text-decoration: none;
+	color: white
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: #333;
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* menu */
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;    
+    margin-top: 7px;
+    margin-right: 15px;
+  }
+  
+  /* menu icon */
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 4px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 24px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 7px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -7px;
+  }
+  
+  /* menu btn */
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  /* 48em = 768px */
+  
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+      margin-top: 7x;
+      margin-right: 15px;
+    }
+    .header .menu-icon {
+      display: none;
+	}
+  }
+
+  .menu-icon:hover::after {
+    background: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+  
+.menu-icon::after{
+	background: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.sessao-um{
+    height: 100vh;
+    text-align: center;
+    background-image: url('../images/fundo-um.png');
+    background-size: 70%;
+    background-repeat: round;
+    background-attachment: fixed;
+}
+
+.sessao-um-opacity{
+	background-color:#150e02;
+	opacity: .82;
+	height: 100vh;
+	width: 100%;
+}	
