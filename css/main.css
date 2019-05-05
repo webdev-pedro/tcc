@@ -3,10 +3,9 @@
 	margin: 0%;
 }
 
-main, footer {
+footer {
 	width: 100%;
-	background-color: #150e02 !important;
-	
+	background-color: #150e02 !important;	
 }
 
 body{
@@ -30,17 +29,18 @@ body{
 
 .btn-entrar{
     padding: 1.3em 3em;
-    background: #F2762E;
-	border-radius: 30px;
-	width: 150px;
-	text-align: center;
-	font-weight: bold;
-	transition: .7s all;
+    background: #150e02;
+    color: white;
+    border-radius: 30px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    transition: .7s all;
 }
 
 .btn-entrar:hover{
 	background-color: white;
-	color: #F2762E;
+	color: #150e02;
 }
 
 .box-main{
@@ -236,3 +236,14 @@ body{
 	height: 100vh;
 	width: 100%;
 }	
+
+.sessao-um-opacity .titulo{
+  position: relative;
+  top: 30%;
+  transform: translateY(-50%); 
+}
+
+.sessao-um .box-botao{
+  position: relative;
+  top: -50%;
+}

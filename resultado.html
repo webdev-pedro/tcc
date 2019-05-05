@@ -7,6 +7,7 @@
     <title>Guia da Baixada</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/resultado.css">    
+    <link rel="stylesheet" type="text/css" href="./css/main.css">    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <!-- Compressed CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation.min.css" integrity="sha256-xpOKVlYXzQ3P03j397+jWFZLMBXLES3IiryeClgU5og= sha384-gP4DhqyoT9b1vaikoHi9XQ8If7UNLO73JFOOlQV1RATrA7D0O7TjJZifac6NwPps sha512-AKwIib1E+xDeXe0tCgbc9uSvPwVYl6Awj7xl0FoaPFostZHOuDQ1abnDNCYtxL/HWEnVOMrFyf91TDgLPi9pNg==" crossorigin="anonymous">
@@ -17,18 +18,16 @@
 </head>
 
 <body>
-    <header class="grid-x">
-        <div class="logo" class="large-3">
-            <h1><a href="index.html">Guia da Baixada</a></h1>
-        </div>
-        <div id="menu" class="large-9">
-                <ul class="menu">
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                      </ul>
-        </div>
-    </header class="grid-x">
+    <header class="header">
+        <a href="" class="logo">Guia da Baixada</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </header>
     <main>
         <h1 class="titulo">Resultado(s)</h1>
         <br>
@@ -42,9 +41,7 @@
                             Horário: 22h00 - 05h00 <br>
                             Descrição: Casa noturna com mesinhas e música ao vivo em meio a salão onde o som e a luz realçam o gosto pela festa.
                         </p>
-                        <div class="btn-saibaMais large-6 box-centro">
-                            <a>Saiba mais</a>
-                        </div>
+            <div class="box-botao large-6 box-centro"><a href="login.html" class="btn-entrar" style="padding: 1em;">Saiba mais</a></div>
                     </div>
                     <div class="large-3 box-centro box-imagem grid-x">
                             <img src="images/imagem-local.png" alt="" class="box-centro">
@@ -53,9 +50,7 @@
                                 Horário: 22h00 - 05h00 <br>
                                 Descrição: Casa noturna com mesinhas e música ao vivo em meio a salão onde o som e a luz realçam o gosto pela festa.
                             </p>
-                            <div class="btn-saibaMais large-6 box-centro">
-                                <a>Saiba mais</a>
-                            </div>
+            <div class="box-botao large-6 box-centro"><a href="login.html" class="btn-entrar" style="padding: 1em;">Saiba mais</a></div>
                     </div>
                     <div class="large-3 box-centro box-imagem grid-x">
                             <img src="images/imagem-local.png" alt="" class="box-centro">
@@ -64,9 +59,7 @@
                                 Horário: 22h00 - 05h00 <br>
                                 Descrição: Casa noturna com mesinhas e música ao vivo em meio a salão onde o som e a luz realçam o gosto pela festa.
                             </p>
-                            <div class="btn-saibaMais large-6 box-centro">
-                                <a class="pop-up">Saiba mais</a>
-                            </div>
+                            <div class="box-botao large-6 box-centro"><a href="login.html" class="btn-entrar" style="padding: 1em;">Saiba mais</a></div>
                     </div>
                 <!-- <br>
                 <div class="large-12 grid-x">
