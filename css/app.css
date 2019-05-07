@@ -1,0 +1,269 @@
+* {
+  font-family: "Open Sans", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.color-white {
+  color: white;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+/*////////////////////////////////////////// sessao um ///////////////////////////////////////////////////////*/
+.logo {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 25%;
+  width: 300px;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-15px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+.botao-subir {
+  transform: rotate(180deg);
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  cursor: pointer;
+}
+.botao-subir .subir {
+  animation: float 2s ease-in-out infinite;
+  width: 46px;
+  background-color: #4660a2;
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.down {
+  cursor: auto;
+}
+.down .descer {
+  transform: translatey(0px);
+  animation: float 2s ease-in-out infinite;
+  width: 46px;
+  margin-top: 35vh;
+  background-color: #4660a2;
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.sessao-um {
+  height: 100vh;
+  text-align: center;
+  background-image: url("../images/fundo-um.png");
+  background-size: 70%;
+  background-repeat: round;
+  background-attachment: fixed;
+}
+.sessao-um .sessao-um-opacity {
+  background-color: white;
+  opacity: 0.82;
+  height: 100vh;
+  width: 100%;
+}
+
+.paragrafo-box {
+  margin: 50px auto;
+  height: auto;
+  font-weight: bold;
+  color: #4660a2;
+}
+.paragrafo-box .texto {
+  color: #535458;
+  margin-top: 20px;
+}
+
+.sessao-dois {
+  height: 450px;
+  text-align: center;
+  background-image: url("../images/fundo-dois.png");
+  background-size: 100%;
+  background-repeat: round;
+  background-attachment: fixed;
+}
+
+.sessao-tres {
+  height: 450px;
+  text-align: center;
+  background-image: url("../images/fundo-tres.png");
+  background-size: 100%;
+  background-repeat: round;
+  background-attachment: fixed;
+}
+
+.sessao-quatro {
+  background-color: #4660a2;
+  height: 300px;
+}
+.sessao-quatro .box-texto-comecar {
+  margin-left: auto;
+}
+.sessao-quatro .box-botao-comecar {
+  margin-right: auto;
+  margin-left: auto;
+}
+.sessao-quatro h2 {
+  margin-top: 75px;
+}
+.sessao-quatro p {
+  margin-top: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: max-content;
+}
+
+.botao-comecar {
+  background-color: #29385e;
+  color: white;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: 0.3s all;
+  font-weight: bold;
+}
+.botao-comecar:hover {
+  color: #29385e;
+  background-color: white;
+}
+
+.sessao-cinco {
+  height: auto;
+  background-color: #29385e;
+}
+.sessao-cinco h1 {
+  margin-top: 50px;
+}
+.sessao-cinco form .botao {
+  width: 100%;
+  background-color: #333333;
+  height: 50px;
+  transition: 0.3s all;
+  font-weight: bold;
+  margin-bottom: 50px;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+.sessao-cinco form .botao:hover {
+  background-color: white;
+  color: #29385e;
+  border: none;
+}
+.sessao-cinco input,
+.sessao-cinco textarea {
+  border: 2px solid #4660a2;
+}
+.sessao-cinco input:hover, .sessao-cinco input:active, .sessao-cinco input:focus,
+.sessao-cinco textarea:hover,
+.sessao-cinco textarea:active,
+.sessao-cinco textarea:focus {
+  border: 2px solid #29385e;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+.footer p {
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: #333333;
+}
+
+.dev-by {
+  background-color: white;
+  margin: 0;
+}
+.dev-by img {
+  width: 120px;
+}
+
+.erro {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  background-color: #B90003;
+  text-align: center;
+  top: 100%;
+  margin-top: -50px;
+  z-index: 9999;
+  line-height: 50px;
+  display: none;
+  color: #FFF;
+  font-family: "Lato", sans-serif !important;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.success {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  background-color: #2AB900;
+  text-align: center;
+  top: 100%;
+  margin-top: -50px;
+  z-index: 9999;
+  line-height: 50px;
+  display: none;
+  color: #FFF;
+  font-family: "Lato", sans-serif !important;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+header nav {
+  display: none;
+  transition: 0.7s all;
+}
+header .header-fixo {
+  display: block;
+  transition: 0.7s all;
+}
+header ul {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-color: #333333;
+}
+header ul li {
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+  text-transform: uppercase;
+  background-color: #333333;
+  transition: 0.7s all;
+}
+header ul li:hover {
+  background-color: #4660a2;
+}
+header ul li a:focus, header ul li a:hover {
+  color: white;
+}
+header ul .ativo {
+  background-color: #4660a2;
+}
+
+/*# sourceMappingURL=app.css.map */
