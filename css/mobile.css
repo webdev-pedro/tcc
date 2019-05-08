@@ -1,0 +1,40 @@
+@media screen and (max-width: 640px) {
+  header ul li {
+    padding: 15px 5px;
+    font-size: 12px;
+  }
+
+  .titulo {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .texto {
+    text-align: center;
+  }
+
+  .sessao-dois,
+.sessao-tres {
+    height: 250px;
+    background-size: auto;
+  }
+
+  .sessao-quatro {
+    height: auto;
+  }
+  .sessao-quatro h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .sessao-quatro p {
+    margin: 75px auto;
+  }
+
+  .hr {
+    margin-top: -30px !important;
+    border-top: 1px solid white !important;
+    border: 0;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */
