@@ -124,6 +124,7 @@
 .sessao-quatro {
   background-color: #333333;
   height: 300px;
+  max-width: initial !important;
 }
 .sessao-quatro .box-texto-comecar {
   margin-left: auto;
