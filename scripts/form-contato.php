@@ -6,7 +6,7 @@ $nome = $_POST["nome"];
 $email = $_POST["email"];
 $telefone = $_POST["tel"];
 $assunto = $_POST["assunto"];
-$mensagem = $_POST["mensagem"];
+$mensagem = $_POST["messsage"];
     
 // Configurações de email
 
