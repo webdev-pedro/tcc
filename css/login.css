@@ -1,0 +1,21 @@
+.box-login {
+  margin: 0 auto;
+  display: block;
+}
+.box-login label {
+  color: #ffb937;
+  font-size: 20px;
+  font-weight: bold;
+}
+.box-login input {
+  border: 2px solid #ffb937;
+}
+.box-login input:hover, .box-login input:focus {
+  border: 2px solid #ffb937;
+}
+
+.inputCadastro {
+  margin-left: 60px;
+}
+
+/*# sourceMappingURL=login.css.map */

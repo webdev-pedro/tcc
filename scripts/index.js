@@ -164,7 +164,7 @@ $(document).ready(function(){
 	ScrollReveal().reveal('.titulo', { delay: 500, duration: 1000 });
 	ScrollReveal().reveal('.texto', { delay: 750, duration: 1000});
 
-	$("nav a").click(function(e){			
+	$(".scroll").click(function(e){			
 		event.preventDefault();		
 		$("html, body").animate({scrollTop: $($(this).attr('href')).offset().top - 50}, 800);		
 	});
