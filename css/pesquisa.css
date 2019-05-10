@@ -1,0 +1,54 @@
+.box-filtros p {
+  color: #ffb937;
+  font-size: 20px;
+  height: 30px;
+  margin-bottom: 0;
+}
+.box-filtros select {
+  margin: 0 0 3.5222rem !important;
+  border: 2px solid #ffb937;
+}
+.box-filtros select:hover, .box-filtros select:focus, .box-filtros select:active {
+  border: 2px solid #ffb937;
+}
+
+.box-resultado {
+  background-color: white;
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.imagem-local {
+  background-color: black;
+  height: 120px;
+  display: block;
+  margin: 25px auto 0 auto;
+}
+.imagem-local p {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.texto-local {
+  color: black;
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+}
+.texto-local span {
+  color: #ffb937;
+  border-bottom: 1px solid black;
+}
+.texto-local p {
+  margin-bottom: 0;
+}
+.texto-local a {
+  color: #ffb937;
+  border-bottom: 1px solid black;
+}
+.texto-local a:hover {
+  color: #ffb937;
+}
+
+/*# sourceMappingURL=pesquisa.css.map */

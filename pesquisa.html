@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guia da Baixada</title>    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="scripts/jquery.js" type="text/javascript"></script>
+    <script src="scripts/index.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation.min.css" integrity="sha256-xpOKVlYXzQ3P03j397+jWFZLMBXLES3IiryeClgU5og= sha384-gP4DhqyoT9b1vaikoHi9XQ8If7UNLO73JFOOlQV1RATrA7D0O7TjJZifac6NwPps sha512-AKwIib1E+xDeXe0tCgbc9uSvPwVYl6Awj7xl0FoaPFostZHOuDQ1abnDNCYtxL/HWEnVOMrFyf91TDgLPi9pNg==" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/js/foundation.min.js" integrity="sha256-/PFxCnsMh+nTuM0k3VJCRch1gwnCfKjaP8rJNq5SoBg= sha384-9ksAFjQjZnpqt6VtpjMjlp2S0qrGbcwF/rvrLUg2vciMhwc1UJJeAAOLuJ96w+Nj sha512-UMSn6RHqqJeJcIfV1eS2tPKCjzaHkU/KqgAnQ7Nzn0mLicFxaVhm9vq7zG5+0LALt15j1ljlg8Fp9PT1VGNmDw==" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/guia-icon.png" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="grid-x">
+                <li class="large-6"><a class="font-bold" href="index.html">Ínicio</a></li>
+                <li class="large-6"><a class="font-bold scroll" href="#1" id="funciona">Pesquisa</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="grid-x" id="topo">
+        <div class="sessao-um large-12 small-12 medium-12">
+                <div class="sessao-um-opacity">            
+                    <h1 class="logo">GUIA DA BAIXADA <br> <span style="font-size: 30px;position: relative;bottom: 20px;">Realize a pesquisa dos locais logo abaixo!</span></h1>
+                    <a class="down" href="#0">
+                        <img src="images/down-arrow.png" alt="Descer" class="logo descer">
+                    </a>
+                </div>
+        </div>
+            
+        <div class="fundo-preto large-12 medium-12 small-12 grid-x">
+            <div class="paragrafo-box large-10 medium-10 small-12 grid-container grid-x" id="0">
+                <h1 class="font-bold titulo text-center large-12 small-12 medium-12" id="1" style="margin-left: -25px;">PESQUISA</h1>     
+                    <div class="grid-x texto large-10 small-12 medium-12" style="margin-left: auto;">
+                        <div class="grid-x large-6 medium-8 small-7 box-login">
+                            <label>Digite um local:</label>
+                            <input type="text" class="large-12 small-12 medium-12">
+                            <div class="large-12 small-12 medium-12 grid-x">
+                                <div class="box-botao-comecar float-center">
+                                    <br>
+                                    <a href="resultados.html" class="botao-comecar" style="">Resultados »</a>
+                                </div>
+                            </div>                              
+                        </div>      
+                        <div class="grid-x large-3 medium-3 small-4 box-filtros">
+                            <p>Filtros:</p>
+                            <select>
+                                <option value="balada">Balada</option>
+                                <option value="barzinho">Barzinho</option>
+                                <option value="praias">Praias</option>
+                              </select>
+                        </div>                  
+                    </div> 
+            </div>
+        </div>
+
+        <div class="sessao-dois large-12 small-12 medium-12">
+             <div class="sessao-um-opacity"></div>
+        </div>
+
+        <div class="botao-subir large-1">
+            <a class="down" href="#topo">
+                <img src="images/down-arrow.png" alt="Descer" class="logo subir">
+             </a>
+        </div>
+    </main>   
+    <footer class="grid-x footer">
+        <p class="large-6 medium-6 small-6 float-center text-center">
+            © Copyright 2019 - ZURE Capital. Todos os direitos reservados. <br>
+            lorem@ipsum.com
+        </p>
+        <p class="large-12 medium-12 small-12 dev-by text-center">
+            Desenvolvido por <a href="https://blzpedro.github.io/portfolio" target="_blank" style="color: white;font-weight: bold;">Pedro Melo</a> e Gabriel Costa.
+        </p>
+    </footer> 
+</body>
+</html>
