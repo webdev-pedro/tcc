@@ -389,6 +389,15 @@ header ul .ativo a {
     font-size: 13px;
   }
 }
+@media screen and (max-width: 600px) {
+  .down .descer {
+    margin-top: 0;
+  }
+
+  .logo {
+    top: 0;
+  }
+}
 .box-filtros p {
   color: #ffb937;
   font-size: 20px;
@@ -407,6 +416,12 @@ header ul .ativo a {
   background-color: white;
   height: 400px;
   margin-bottom: 30px;
+  margin: 0 4.16% 30px 4.16%;
+}
+@media screen and (max-width: 640px) {
+  .box-resultado {
+    margin: 0 auto 30px auto;
+  }
 }
 
 .imagem-local {
