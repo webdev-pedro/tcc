@@ -53,3 +53,9 @@
         top: 0;
     }
 }
+
+@media screen and(max-width: 400px){
+    header ul li{
+        height: 100%;
+    }
+}

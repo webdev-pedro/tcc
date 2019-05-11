@@ -294,10 +294,11 @@ header {
             text-transform: uppercase;
             background-color: #ffb937;
             transition: .7s all;
-            color: white;
+            color: black;
 
             &:hover {
                 background-color: #333333;
+                color: white;
                 a{
                     color: white;
                 }
@@ -314,9 +315,7 @@ header {
 
         .ativo {
             background-color: #333333;
-            a{
-                color: white !important;
-            }
+            color: white !important;
         }
     }
 }
@@ -347,3 +346,4 @@ header {
         margin-top: 30px;
     }
 }
+

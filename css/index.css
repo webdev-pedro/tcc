@@ -284,10 +284,11 @@ header ul li {
   text-transform: uppercase;
   background-color: #ffb937;
   transition: 0.7s all;
-  color: white;
+  color: black;
 }
 header ul li:hover {
   background-color: #333333;
+  color: white;
 }
 header ul li:hover a {
   color: white;
@@ -300,8 +301,6 @@ header ul li a:focus, header ul li a:hover {
 }
 header ul .ativo {
   background-color: #333333;
-}
-header ul .ativo a {
   color: white !important;
 }
 

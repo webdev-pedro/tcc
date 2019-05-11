@@ -13,17 +13,20 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation.min.css" integrity="sha256-xpOKVlYXzQ3P03j397+jWFZLMBXLES3IiryeClgU5og= sha384-gP4DhqyoT9b1vaikoHi9XQ8If7UNLO73JFOOlQV1RATrA7D0O7TjJZifac6NwPps sha512-AKwIib1E+xDeXe0tCgbc9uSvPwVYl6Awj7xl0FoaPFostZHOuDQ1abnDNCYtxL/HWEnVOMrFyf91TDgLPi9pNg==" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/js/foundation.min.js" integrity="sha256-/PFxCnsMh+nTuM0k3VJCRch1gwnCfKjaP8rJNq5SoBg= sha384-9ksAFjQjZnpqt6VtpjMjlp2S0qrGbcwF/rvrLUg2vciMhwc1UJJeAAOLuJ96w+Nj sha512-UMSn6RHqqJeJcIfV1eS2tPKCjzaHkU/KqgAnQ7Nzn0mLicFxaVhm9vq7zG5+0LALt15j1ljlg8Fp9PT1VGNmDw==" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="images/guia-icon.png" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 <body>
     <header>
         <nav>
             <ul class="grid-x">
-                <li class="large-4"><a class="font-bold" href="index.html">Ínicio</a></li>
-                <li class="large-4"><a class="font-bold" href="perfil.html">Você está logado como: Pedro</a></li>
-                <li class="large-4"><a class="font-bold" href="pesquisa.html" id="funciona">Pesquisa</a></li>
+                <a class="font-bold large-4 small-3 medium-4" href="index.html"><li>Ínicio</li></a>
+                <a class="font-bold large-4 small-5 medium-4" href="perfil.html"><li>Você está logado como: Pedro</li></a>
+                <a class="font-bold large-4 small-4 medium-4" href="pesquisa.html" id="funciona"><li>Pesquisa</li></a>
             </ul>
         </nav>
     </header>
+    
     <main class="grid-x" id="topo">
         <div class="sessao-um large-12 small-12 medium-12">
                 <div class="sessao-um-opacity">            
@@ -53,7 +56,21 @@
                                     (XX) - XXXX-XXXX
                                 </p>
                                 <br>
-                                <a href="local.html">Veja mais sobre o local</a>
+                                <a rel="modal:open" href="#local1">Veja mais sobre o local</a>
+                                
+                                <div id="local1" class="modal">
+                                    <a href="https://goo.gl/maps/BKhUmBCQzJYKFx9L8" target="_blank"><img src="images/foto-maps.PNG" class="float-center" alt="Foto Maps"></a>
+                                    <p>
+                                        <span>Nome:</span><br>
+                                        Balada New Village<br>
+                                        <span>Horário:</span><br>
+                                        22h00 até 05h00 <br>
+                                        <span>Telefone:</span><br> 
+                                        (XX) - XXXX-XXXX <br>
+                                        <span>Endereço:</span><br>
+                                        Av. Pres. Wilson, 50 - José Menino <br> Santos - SP, 11065-200 
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <div class="large-3 medium-5 small-8  grid-x box-resultado">
@@ -70,7 +87,7 @@
                                     (XX) - XXXX-XXXX
                                 </p>
                                 <br>
-                                <a href="local.html">Veja mais sobre o local</a>
+                                <a rel="modal:open" href="#local1">Veja mais sobre o local</a>
                             </div>        
                         </div>
                         <div class="large-3 medium-5 small-8 grid-x box-resultado">
@@ -79,7 +96,7 @@
                             </div>
                             <div class="large-8 medium-8 small-8 texto-local">
                                 <p>
-                                <span>Nome:v</span><br>
+                                <span>Nome:</span><br>
                                     Balada Pink Elephant<br>
                                 <span>Horário:</span><br>
                                     22h00 até 05h00 <br>
@@ -87,7 +104,7 @@
                                     (XX) - XXXX-XXXX
                                 </p>
                                 <br>
-                                <a href="local.html">Veja mais sobre o local</a>
+                                <a rel="modal:open" href="#local1">Veja mais sobre o local</a>
                             </div>
                         </div>                        
                     
@@ -105,7 +122,7 @@
                                     (XX) - XXXX-XXXX
                                 </p>
                                 <br>
-                                <a href="local.html">Veja mais sobre o local</a>
+                                <a rel="modal:open" href="#local1">Veja mais sobre o local</a>
                             </div>
                         </div>
                         <div class="large-3 medium-5 small-8  grid-x box-resultado">
@@ -122,7 +139,7 @@
                                     (XX) - XXXX-XXXX
                                 </p>
                                 <br>
-                                <a href="local.html">Veja mais sobre o local</a>
+                                <a rel="modal:open" href="#local1">Veja mais sobre o local</a>
                             </div>                  
                         </div>
                         <div class="large-3 medium-5 small-8 grid-x box-resultado">
@@ -139,7 +156,7 @@
                                     (XX) - XXXX-XXXX
                                 </p>
                                 <br>
-                                <a href="local.html">Veja mais sobre o local</a>
+                                <a rel="modal:open" href="#local1">Veja mais sobre o local</a>
                             </div>
                         </div>                        
                     </div>                 
