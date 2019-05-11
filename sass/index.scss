@@ -6,8 +6,8 @@
 }
 
 ::-webkit-scrollbar-track{background-color:#000000;}
-::-webkit-scrollbar{width:10px;}
-::-webkit-scrollbar-thumb{background:#ffb937;}
+::-webkit-scrollbar{width:7px;}
+::-webkit-scrollbar-thumb{background:$primaria;}
 
 .color-white {
     color: white;
@@ -25,7 +25,7 @@
     position: relative;
     top: 30%;
     font-weight: bold;
-    color: #ffb937;
+    color: $primaria;
     font-size: 70px;
     text-align: center;
     margin-bottom: 30%;
@@ -52,7 +52,7 @@
     .subir{
         animation: float 2s ease-in-out infinite;
         width: 46px;
-        background-color: #ffb937;
+        background-color: $primaria;
         padding: 10px;
         border-radius: 25px;
         cursor: pointer;
@@ -66,7 +66,7 @@
         animation: float 2s ease-in-out infinite;
         width: 46px;
         margin-top: 35vh;
-        background-color: #ffb937;
+        background-color: $primaria;
         padding: 10px;
         border-radius: 25px;
         cursor: pointer;
@@ -85,6 +85,9 @@
         background: rgba(33, 33, 33, 0.82);
         height: 100vh;
         width: 100%;
+        span{
+            font-size: 30px;position: relative;bottom: 20px;
+        }
     }
 }
 
@@ -156,7 +159,7 @@
 }
 
 .botao-comecar {
-    background-color: #ffb937;
+    background-color: $primaria;
     color: #333333;
     padding: 15px;
     padding-left: 30px;
@@ -177,12 +180,12 @@
 
     h1 {
         margin-top: 50px;
-        color: #ffb937;
+        color: $primaria;
     }
 
     form .botao {
         width: 100%;
-        background-color: #ffb937;
+        background-color: $primaria;
         height: 50px;
         transition: .3s all;
         font-weight: bold;
@@ -201,12 +204,12 @@
 
     input,
     textarea {
-        border: 2px solid #ffb937;
+        border: 2px solid $primaria;
 
         &:hover,
         &:active,
         &:focus {
-            border: 2px solid #ffb937;
+            border: 2px solid $primaria;
         }
     }
 }
@@ -285,14 +288,14 @@ header {
         position: fixed;
         z-index: 999;
         width: 100%;
-        background-color: #ffb937;
+        background-color: $primaria;
 
         li {
             margin: 0 auto;
             text-align: center;
             padding: 15px;
             text-transform: uppercase;
-            background-color: #ffb937;
+            background-color: $primaria;
             transition: .7s all;
             color: black;
 

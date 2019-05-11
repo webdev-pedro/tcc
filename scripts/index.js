@@ -196,4 +196,14 @@ $(document).ready(function(){
 			$('.botao-subir').css('display', 'none');
 		}
 	});
+	$(function(){
+		$(document).one('click', '.like-review', function(e) {
+			$(this).html('<i class="fi-heart" aria-hidden="true"></i> Você gostou disso!');
+			$(this).children('.fi-heart').addClass('animate-like');
+		});
+		$(document).two('click', '.like-review', function(e) {
+			$(this).html('<i class="fi-heart" aria-hidden="true"></i>');
+			$(this).children('.fi-heart').addClass('animate-like');
+		});
+	});
 });

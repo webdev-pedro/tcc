@@ -1,6 +1,6 @@
 .box-filtros{
     p{
-        color: #ffb937;
+        color: $primaria;
         font-size: 20px;
         height: 30px;
         margin-bottom: 0;
@@ -8,9 +8,9 @@
 
     select{
         margin: 0 0 3.5222rem !important;
-        border: 2px solid #ffb937;
+        border: 2px solid $primaria;
         &:hover, &:focus, &:active{
-            border: 2px solid #ffb937;
+            border: 2px solid $primaria;
           }
     } 
 }
@@ -43,7 +43,7 @@
     display: block;
     text-align: center;
     span{
-        color: #ffb937;
+        color: $primaria;
         border-bottom: 1px solid black;
     }
     p{
@@ -51,10 +51,10 @@
     }
 
     a{
-        color: #ffb937;
+        color: $primaria;
         border-bottom: 1px solid black;
         &:hover{
-            color: #ffb937;
+            color: $primaria;
         }
     }
 }

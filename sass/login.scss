@@ -2,15 +2,15 @@
     margin: 0 auto; 
     display: block;
     label{
-        color: #ffb937;
+        color: $primaria;
         font-size: 20px;
         font-weight: bold;
     }
     input{
-        border: 2px solid #ffb937;
+        border: 2px solid $primaria;
 
         &:hover, &:focus{
-            border: 2px solid #ffb937;
+            border: 2px solid $primaria;
           }
     }
 }

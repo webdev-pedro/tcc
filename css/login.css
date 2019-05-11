@@ -3,15 +3,15 @@
   display: block;
 }
 .box-login label {
-  color: #ffb937;
+  color: $primaria;
   font-size: 20px;
   font-weight: bold;
 }
 .box-login input {
-  border: 2px solid #ffb937;
+  border: 2px solid $primaria;
 }
 .box-login input:hover, .box-login input:focus {
-  border: 2px solid #ffb937;
+  border: 2px solid $primaria;
 }
 
 .inputCadastro {
